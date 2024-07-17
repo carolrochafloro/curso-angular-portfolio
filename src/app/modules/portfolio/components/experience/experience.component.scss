@@ -15,12 +15,10 @@
     margin-top: 10px;
     background: var(--black-010);
     border-radius: 7px;
-    color: var(--white);
 
     article,
     summary {
       padding: 10px 20px;
-      color: var(--grey);
       transition: 0.5s;
     }
 
@@ -50,7 +48,7 @@
           content: url("../../../../../../public/icons/chevron-up.svg");
           margin-top: 5px;
         }
-        border-radius: 7px 7px 0 0 !important;
+        border-radius: 7px 7px 0 0;
       }
     }
 
