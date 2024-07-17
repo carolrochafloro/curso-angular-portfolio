@@ -1,5 +1,5 @@
 import { Component, signal } from '@angular/core';
-import { IExperience } from '../../interface/Experience.interface';
+import { IExperience } from '../../interface/experience.interface';
 
 @Component({
   selector: 'app-experience',
