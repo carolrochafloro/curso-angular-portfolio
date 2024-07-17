@@ -1,5 +1,5 @@
 import { Component, signal } from '@angular/core';
-import { IKnowledge } from '../../interface/Knowledge.interface';
+import { IKnowledge } from '../../interface/knowledge.interface';
 
 @Component({
   selector: 'app-knowledge',
@@ -11,19 +11,19 @@ import { IKnowledge } from '../../interface/Knowledge.interface';
 export class KnowledgeComponent {
   public knowledgeArray = signal<IKnowledge[]>([
     {
-      src: 'end. icon 1',
+      src: 'icons\\javascript.svg',
       alt: 'ícone de conhecimento',
     },
     {
-      src: 'end. icon 1',
+      src: 'icons\\css.svg',
       alt: 'ícone de conhecimento',
     },
     {
-      src: 'end. icon 1',
+      src: 'icons\\angular.svg',
       alt: 'ícone de conhecimento',
     },
     {
-      src: 'end. icon 1',
+      src: 'icons\\html.svg',
       alt: 'ícone de conhecimento',
     },
   ]);
